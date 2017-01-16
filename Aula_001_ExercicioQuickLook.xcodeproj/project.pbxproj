@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		431A465B1E2D885200F9C303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431A465A1E2D885200F9C303 /* AppDelegate.swift */; };
-		431A465D1E2D885200F9C303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431A465C1E2D885200F9C303 /* ViewController.swift */; };
 		431A46601E2D885200F9C303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431A465E1E2D885200F9C303 /* Main.storyboard */; };
 		431A46621E2D885200F9C303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431A46611E2D885200F9C303 /* Assets.xcassets */; };
 		431A46651E2D885200F9C303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431A46631E2D885200F9C303 /* LaunchScreen.storyboard */; };
+		431A466D1E2D886B00F9C303 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431A466C1E2D886B00F9C303 /* TableViewController.swift */; };
+		431A46711E2D889B00F9C303 /* 5 Conselhos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 431A466E1E2D889B00F9C303 /* 5 Conselhos.pdf */; };
+		431A46721E2D889B00F9C303 /* Identidade da sua Empresa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 431A466F1E2D889B00F9C303 /* Identidade da sua Empresa.pdf */; };
+		431A46731E2D889B00F9C303 /* Marketing Digital.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 431A46701E2D889B00F9C303 /* Marketing Digital.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		431A46571E2D885100F9C303 /* Aula_001_ExercicioQuickLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula_001_ExercicioQuickLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		431A465A1E2D885200F9C303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		431A465C1E2D885200F9C303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		431A465F1E2D885200F9C303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		431A46611E2D885200F9C303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431A46641E2D885200F9C303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431A46661E2D885200F9C303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431A466C1E2D886B00F9C303 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		431A466E1E2D889B00F9C303 /* 5 Conselhos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "5 Conselhos.pdf"; sourceTree = "<group>"; };
+		431A466F1E2D889B00F9C303 /* Identidade da sua Empresa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Identidade da sua Empresa.pdf"; sourceTree = "<group>"; };
+		431A46701E2D889B00F9C303 /* Marketing Digital.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Marketing Digital.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		431A46591E2D885100F9C303 /* Aula_001_ExercicioQuickLook */ = {
 			isa = PBXGroup;
 			children = (
+				431A46741E2D88A400F9C303 /* Anexos */,
 				431A465A1E2D885200F9C303 /* AppDelegate.swift */,
-				431A465C1E2D885200F9C303 /* ViewController.swift */,
+				431A466C1E2D886B00F9C303 /* TableViewController.swift */,
 				431A465E1E2D885200F9C303 /* Main.storyboard */,
 				431A46611E2D885200F9C303 /* Assets.xcassets */,
 				431A46631E2D885200F9C303 /* LaunchScreen.storyboard */,
 				431A46661E2D885200F9C303 /* Info.plist */,
 			);
 			path = Aula_001_ExercicioQuickLook;
+			sourceTree = "<group>";
+		};
+		431A46741E2D88A400F9C303 /* Anexos */ = {
+			isa = PBXGroup;
+			children = (
+				431A466E1E2D889B00F9C303 /* 5 Conselhos.pdf */,
+				431A466F1E2D889B00F9C303 /* Identidade da sua Empresa.pdf */,
+				431A46701E2D889B00F9C303 /* Marketing Digital.pdf */,
+			);
+			name = Anexos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				431A46651E2D885200F9C303 /* LaunchScreen.storyboard in Resources */,
+				431A46711E2D889B00F9C303 /* 5 Conselhos.pdf in Resources */,
 				431A46621E2D885200F9C303 /* Assets.xcassets in Resources */,
+				431A46731E2D889B00F9C303 /* Marketing Digital.pdf in Resources */,
+				431A46721E2D889B00F9C303 /* Identidade da sua Empresa.pdf in Resources */,
 				431A46601E2D885200F9C303 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431A465D1E2D885200F9C303 /* ViewController.swift in Sources */,
+				431A466D1E2D886B00F9C303 /* TableViewController.swift in Sources */,
 				431A465B1E2D885200F9C303 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
